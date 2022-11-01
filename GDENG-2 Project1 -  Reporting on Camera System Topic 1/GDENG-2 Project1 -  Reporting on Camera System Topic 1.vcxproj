@@ -178,6 +178,8 @@
     <ClInclude Include="IMGUI\imstb_truetype.h" />
     <ClInclude Include="InspectorScreen.h" />
     <ClInclude Include="MenuScreen.h" />
+    <ClInclude Include="PerspectiveChanger.h" />
+    <ClInclude Include="PerspectiveListener.h" />
     <ClInclude Include="PixelShader.h" />
     <ClInclude Include="ProfilerScreen.h" />
     <ClInclude Include="Rectangle.h" />
@@ -222,6 +224,7 @@
     <ClCompile Include="InspectorScreen.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MenuScreen.cpp" />
+    <ClCompile Include="PerspectiveChanger.cpp" />
     <ClCompile Include="PixelShader.cpp" />
     <ClCompile Include="ProfilerScreen.cpp" />
     <ClCompile Include="Rectangle.cpp" />

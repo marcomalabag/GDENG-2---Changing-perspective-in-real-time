@@ -44,6 +44,10 @@ void AppWindow::onCreate()
 {
 	Window::onCreate();
 	InputSystem::initialize();
+	RECT rc = this->getClientWindowRect();
+	int width = rc.right - rc.left;
+	int height = rc.bottom - rc.top;
+	this->perspectiveChanger = new PerspectiveChanger((FLOAT)width, (FLOAT)height, 0.1f, 1000.0f);
 }
 
 void AppWindow::initializeEngine()

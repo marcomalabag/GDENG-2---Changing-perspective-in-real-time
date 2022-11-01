@@ -136,6 +136,15 @@
     <Filter Include="EngineTime">
       <UniqueIdentifier>{0c37a61e-9d46-4517-8d1b-3f7ca9d35de4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Perspective">
+      <UniqueIdentifier>{545a5d22-94a4-48a4-8884-be00a77b8889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perspective\PerspectiveListener">
+      <UniqueIdentifier>{6676d0ea-dfaa-45a0-b9e3-8626fa5c37fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perspective\PerspectiveChanger">
+      <UniqueIdentifier>{2a079f0a-963a-4e41-9713-66bf348cc192}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GraphicsEngine.cpp">
@@ -222,9 +231,6 @@
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Camera.cpp">
       <Filter>CameraSystem\Camera</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\SceneCameraHandler.cpp">
-      <Filter>CameraSystem\SceneCameraHandler</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\AGameObject.cpp">
       <Filter>Primitives\3D\AGameObject</Filter>
     </ClCompile>
@@ -260,6 +266,12 @@
     </ClCompile>
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.cpp">
       <Filter>GameEngine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\SceneCameraHandler.cpp">
+      <Filter>CameraSystem\SceneCameraHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="PerspectiveChanger.cpp">
+      <Filter>Perspective\PerspectiveChanger</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -353,9 +365,6 @@
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Camera.h">
       <Filter>CameraSystem\Camera</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\SceneCameraHandler.h">
-      <Filter>CameraSystem\SceneCameraHandler</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\AGameObject.h">
       <Filter>Primitives\3D\AGameObject</Filter>
     </ClInclude>
@@ -394,6 +403,15 @@
     </ClInclude>
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.h">
       <Filter>GameEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="PerspectiveListener.h">
+      <Filter>Perspective\PerspectiveListener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\SceneCameraHandler.h">
+      <Filter>CameraSystem\SceneCameraHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="PerspectiveChanger.h">
+      <Filter>Perspective\PerspectiveChanger</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

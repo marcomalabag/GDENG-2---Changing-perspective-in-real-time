@@ -17,6 +17,7 @@
 #include "EngineTime.h"
 #include "InputListener.h"
 #include "InputSystem.h"
+#include "PerspectiveChanger.h"
 
 class AppWindow : public Window, public InputListener
 {
@@ -61,6 +62,7 @@ private:
 	VertexShader* vertexshader;
 	PixelShader* pixelshader;
 	ConstantBuffer* constantbuffer;
+	PerspectiveChanger* perspectiveChanger;
 
 	unsigned long oldTime = 0;
 	float deltaTime = 0;
