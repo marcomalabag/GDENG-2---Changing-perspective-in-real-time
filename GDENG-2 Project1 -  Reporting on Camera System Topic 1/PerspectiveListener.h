@@ -3,13 +3,8 @@
 #include <iostream>
 #include <string>
 
-#include "PerspectiveChanger.h"
-#include "PerspectiveChanger.h"
-#include "PerspectiveChanger.h"
 
-typedef std::string String;
 
-class PerspectiveChanger;
 class PerspectiveListener
 {
 public:
@@ -20,8 +15,14 @@ public:
 	};
 
 	typedef std::string String;
-	PerspectiveListener();
-	~PerspectiveListener();
+	PerspectiveListener()
+	{
+		
+	}
+	~PerspectiveListener()
+	{
+		
+	}
 
-	virtual void updatePerspective(ViewMode mode, float width, float height, float near, float far);
+	virtual void updatePerspective(ViewMode mode, float width, float height, float m_near, float m_far) = 0;
 };

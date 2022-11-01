@@ -59,6 +59,8 @@ void AppWindow::initializeEngine()
 
 	Viewport::initialize();
 
+	SceneCameraHandler::getInstance()->addCameraPerspectiveListener(this->perspectiveChanger);
+
 	m_swap_chain = graphEngine->createSwapChain();
 
 	RECT rc = this->getClientWindowRect();
@@ -149,6 +151,9 @@ void AppWindow::onUpdate()
 		this->triangle.at(i)->draw();
 	}
 	*/
+
+	SceneCameraHandler::getInstance()->update();
+	SceneCameraHandler::getInstance()->updateCameraPerspective();
 	
 	for (int i = 0; i < Cubes.size(); i++)
 	{
@@ -157,7 +162,7 @@ void AppWindow::onUpdate()
 		Cubes.at(i)->draw(rc.right - rc.left, rc.bottom - rc.top, this->vertexshader, this->pixelshader);
 	}
 
-	SceneCameraHandler::getInstance()->update();
+	
 	UIManager::getInstance()->drawAllUI();
 	
 	

@@ -145,19 +145,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\AGameObject.h" />
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Camera.h" />
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Cube.h" />
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Cylinder.h" />
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\EngineTime.h" />
+    <ClInclude Include="AGameObject.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="Cylinder.h" />
+    <ClInclude Include="EngineTime.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\IndexBuffer.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\InputListener.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\InputSystem.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Matrix4x4.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Point.h" />
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\SceneCameraHandler.h" />
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Sphere.h" />
+    <ClInclude Include="SceneCameraHandler.h" />
+    <ClInclude Include="Sphere.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Vector3D.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Vector4D.h" />
     <ClInclude Include="AppWindow.h" />
@@ -193,18 +193,18 @@
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\AGameObject.cpp" />
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Camera.cpp" />
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Cube.cpp" />
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Cylinder.cpp" />
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\EngineTime.cpp" />
+    <ClCompile Include="AGameObject.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="Cylinder.cpp" />
+    <ClCompile Include="EngineTime.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\IndexBuffer.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\InputSystem.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Matrix4x4.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Point.cpp" />
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\SceneCameraHandler.cpp" />
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Sphere.cpp" />
+    <ClCompile Include="SceneCameraHandler.cpp" />
+    <ClCompile Include="Sphere.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Vector3D.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Vector4D.cpp" />
     <ClCompile Include="AppWindow.cpp" />

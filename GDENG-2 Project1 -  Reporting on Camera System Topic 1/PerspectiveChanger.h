@@ -12,9 +12,6 @@ class PerspectiveChanger
 {
 public:
 
-	
-
-
 	PerspectiveChanger(float width, float height, float near, float far);
 	void addListener(PerspectiveListener* listener);
 	void removeListener(PerspectiveListener* listener);
@@ -25,8 +22,6 @@ public:
 	void changeNear(float Near);
 	void changeFar(float Far);
 	~PerspectiveChanger();
-
-	
 
 private:
 	PerspectiveListener::ViewMode currentMode;

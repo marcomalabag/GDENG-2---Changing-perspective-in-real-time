@@ -19,6 +19,7 @@
 #include "InputSystem.h"
 #include "PerspectiveChanger.h"
 
+
 class AppWindow : public Window, public InputListener
 {
 public:

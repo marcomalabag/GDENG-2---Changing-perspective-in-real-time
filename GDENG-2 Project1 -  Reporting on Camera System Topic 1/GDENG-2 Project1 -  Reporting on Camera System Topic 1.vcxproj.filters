@@ -228,19 +228,19 @@
     <ClCompile Include="CreditsScreen.cpp">
       <Filter>UI\CreditsScreen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Camera.cpp">
+    <ClCompile Include="Camera.cpp">
       <Filter>CameraSystem\Camera</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\AGameObject.cpp">
+    <ClCompile Include="AGameObject.cpp">
       <Filter>Primitives\3D\AGameObject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Cube.cpp">
+    <ClCompile Include="Cube.cpp">
       <Filter>Primitives\3D\Cube\Normal Cube</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Cylinder.cpp">
+    <ClCompile Include="Cylinder.cpp">
       <Filter>Primitives\3D\Cylinder</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Sphere.cpp">
+    <ClCompile Include="Sphere.cpp">
       <Filter>Primitives\3D\Sphere</Filter>
     </ClCompile>
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Matrix4x4.cpp">
@@ -261,13 +261,13 @@
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Point.cpp">
       <Filter>GameEngine\Math\Point</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\EngineTime.cpp">
+    <ClCompile Include="EngineTime.cpp">
       <Filter>EngineTime</Filter>
     </ClCompile>
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.cpp">
       <Filter>GameEngine\Math</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\SceneCameraHandler.cpp">
+    <ClCompile Include="SceneCameraHandler.cpp">
       <Filter>CameraSystem\SceneCameraHandler</Filter>
     </ClCompile>
     <ClCompile Include="PerspectiveChanger.cpp">
@@ -362,19 +362,19 @@
     <ClInclude Include="CreditsScreen.h">
       <Filter>UI\CreditsScreen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Camera.h">
+    <ClInclude Include="Camera.h">
       <Filter>CameraSystem\Camera</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\AGameObject.h">
+    <ClInclude Include="AGameObject.h">
       <Filter>Primitives\3D\AGameObject</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Cube.h">
+    <ClInclude Include="Cube.h">
       <Filter>Primitives\3D\Cube\Normal Cube</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Cylinder.h">
+    <ClInclude Include="Cylinder.h">
       <Filter>Primitives\3D\Cylinder</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Sphere.h">
+    <ClInclude Include="Sphere.h">
       <Filter>Primitives\3D\Sphere</Filter>
     </ClInclude>
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Matrix4x4.h">
@@ -398,7 +398,7 @@
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Point.h">
       <Filter>GameEngine\Math\Point</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\EngineTime.h">
+    <ClInclude Include="EngineTime.h">
       <Filter>EngineTime</Filter>
     </ClInclude>
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.h">
@@ -407,7 +407,7 @@
     <ClInclude Include="PerspectiveListener.h">
       <Filter>Perspective\PerspectiveListener</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\SceneCameraHandler.h">
+    <ClInclude Include="SceneCameraHandler.h">
       <Filter>CameraSystem\SceneCameraHandler</Filter>
     </ClInclude>
     <ClInclude Include="PerspectiveChanger.h">

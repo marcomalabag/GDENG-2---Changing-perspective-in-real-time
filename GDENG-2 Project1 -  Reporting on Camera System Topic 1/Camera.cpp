@@ -209,6 +209,19 @@ Matrix4x4 Camera::getViewMatrix()
 	return this->LocalMatrix;
 }
 
+Matrix4x4 Camera::getPerspectiveMatrix()
+{
+	if(this->currentmode == PerspectiveListener::PERSPECTIVE)
+	{
+		return this->perspectiveMatrix;
+	}
+
+	else if(this->currentmode == PerspectiveListener::ORTHOGRAPHIC)
+	{
+		return this->orthographicMatrix;
+	}
+}
+
 
 
 void Camera::onKeyDown(int key)
@@ -279,6 +292,14 @@ void Camera::onRightMouseUp(const Point& mousePosition)
 {
 	this->RightMouseDown = false;
 }
+
+void Camera::updatePerspective(ViewMode mode, float width, float height, float m_near, float m_far)
+{
+	this->currentmode = mode;
+	this->perspectiveMatrix.setPerspectiveFovLH(width / height, width / height, m_near, m_far);
+	this->orthographicMatrix.setOrthoLH(width, height, m_near, m_far);
+}
+
 
 Camera::~Camera()
 {
