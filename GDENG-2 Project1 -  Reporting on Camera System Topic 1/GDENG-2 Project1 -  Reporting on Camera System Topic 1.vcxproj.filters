@@ -145,6 +145,9 @@
     <Filter Include="Perspective\PerspectiveChanger">
       <UniqueIdentifier>{2a079f0a-963a-4e41-9713-66bf348cc192}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UI\PerspectiveChangerScreen">
+      <UniqueIdentifier>{4c286445-133a-4219-87b7-38caec3be5c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GraphicsEngine.cpp">
@@ -272,6 +275,9 @@
     </ClCompile>
     <ClCompile Include="PerspectiveChanger.cpp">
       <Filter>Perspective\PerspectiveChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="PerspectiveChangerScreen.cpp">
+      <Filter>UI\PerspectiveChangerScreen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -412,6 +418,9 @@
     </ClInclude>
     <ClInclude Include="PerspectiveChanger.h">
       <Filter>Perspective\PerspectiveChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="PerspectiveChangerScreen.h">
+      <Filter>UI\PerspectiveChangerScreen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

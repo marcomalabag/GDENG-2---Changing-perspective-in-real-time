@@ -67,6 +67,38 @@ void PerspectiveChanger::changeFar(float Far)
 	this->CallUpdatePerspective(currentMode, width, height, this->Near, Far);
 }
 
+string PerspectiveChanger::getMode()
+{
+	if(this->currentMode == PerspectiveListener::PERSPECTIVE)
+	{
+		return "PERSPECTIVE";
+	}
+	else if(this->currentMode == PerspectiveListener::ORTHOGRAPHIC)
+	{
+		return "ORTHOGRAPHIC";
+	}
+}
+
+float PerspectiveChanger::getWidth()
+{
+	return this->width;
+}
+
+float PerspectiveChanger::getHeight()
+{
+	return this->height;
+}
+
+float PerspectiveChanger::getNear()
+{
+	return this->Near;
+}
+
+float PerspectiveChanger::getFar()
+{
+	return this->Far;
+}
+
 PerspectiveChanger::~PerspectiveChanger()
 {
 }

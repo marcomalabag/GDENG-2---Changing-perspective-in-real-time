@@ -131,6 +131,7 @@ void AppWindow::initializeEngine()
 void AppWindow::createInterface()
 {
 	UIManager::initialize(this->m_hwnd);
+	UIManager::getInstance()->initializePerspectiveScreen(this->perspectiveChanger);
 }
 
 

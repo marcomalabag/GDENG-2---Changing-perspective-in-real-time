@@ -156,6 +156,7 @@
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Matrix4x4.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Point.h" />
+    <ClInclude Include="PerspectiveChangerScreen.h" />
     <ClInclude Include="SceneCameraHandler.h" />
     <ClInclude Include="Sphere.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Vector3D.h" />
@@ -203,6 +204,7 @@
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Matrix4x4.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Point.cpp" />
+    <ClCompile Include="PerspectiveChangerScreen.cpp" />
     <ClCompile Include="SceneCameraHandler.cpp" />
     <ClCompile Include="Sphere.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Vector3D.cpp" />

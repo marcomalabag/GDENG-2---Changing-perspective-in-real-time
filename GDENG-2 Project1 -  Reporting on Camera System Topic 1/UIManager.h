@@ -7,6 +7,8 @@
 #include "InspectorScreen.h"
 #include "HierarchyScreen.h"
 #include "CreditsScreen.h"
+#include "PerspectiveChangerScreen.h"
+#include "PerspectiveChanger.h"
 
 
 class UIManager
@@ -23,6 +25,7 @@ public:
 	void drawAllUI();
 	void hideCreditsScreen();
 	void showCreditsScreen();
+	void initializePerspectiveScreen(PerspectiveChanger* changer);
 
 	static const int WINDOW_WIDTH = 1440;
 	static const int WINDOW_HEIGHT = 900;

@@ -67,7 +67,7 @@ void UIManager::drawAllUI()
 		
 	}
 
-	//ImGui::ShowDemoWindow();
+	ImGui::ShowDemoWindow();
 
 	ImGui::Render();
 	ImGui_ImplDX11_RenderDrawData(ImGui::GetDrawData());
@@ -81,6 +81,14 @@ void UIManager::hideCreditsScreen()
 void UIManager::showCreditsScreen()
 {
 	showCredits = true;
+}
+
+void UIManager::initializePerspectiveScreen(PerspectiveChanger* changer)
+{
+	UINames uiNames;
+	PerspectiveChangerScreen* perspective_changer = new PerspectiveChangerScreen(changer);
+	this->uiTable[uiNames.PERSPECTIVE_SCREEN] = perspective_changer;
+	this->uiList.push_back(perspective_changer);
 }
 
 UIManager* UIManager::getInstance()

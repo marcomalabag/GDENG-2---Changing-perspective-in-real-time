@@ -4,6 +4,8 @@
 #include <string>
 #include "PerspectiveListener.h"
 
+using namespace std;
+
 typedef std::string String;
 typedef std::vector<PerspectiveListener*> Listeners;
 
@@ -21,6 +23,11 @@ public:
 	void changeHeight(float Height);
 	void changeNear(float Near);
 	void changeFar(float Far);
+	string getMode();
+	float getWidth();
+	float getHeight();
+	float getNear();
+	float getFar();
 	~PerspectiveChanger();
 
 private:
