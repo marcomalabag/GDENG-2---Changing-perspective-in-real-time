@@ -31,8 +31,8 @@ void SceneCameraHandler::update()
 
 void SceneCameraHandler::updateCameraPerspective()
 {
-	this->sceneCamera->updatePerspective(PerspectiveListener::PERSPECTIVE,
-		1000.0f, 500.0f, 0.1, 1000.0f);
+	/*this->sceneCamera->updatePerspective(PerspectiveListener::PERSPECTIVE,
+		1000.0f, 500.0f, 0.1, 1000.0f);*/
 }
 
 void SceneCameraHandler::addCameraPerspectiveListener(PerspectiveChanger* perspective_changer)

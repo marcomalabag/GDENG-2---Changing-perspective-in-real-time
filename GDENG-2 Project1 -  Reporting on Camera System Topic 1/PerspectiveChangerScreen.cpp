@@ -19,6 +19,10 @@ void PerspectiveChangerScreen::drawUI()
 	ImGui::Text("Width %f", changerPerspective->getWidth());
 	ImGui::Text("Near %f", changerPerspective->getNear());
 	ImGui::Text("Far %f", changerPerspective->getFar());
+	if (ImGui::Button("Change Height"))
+	{
+		changerPerspective->changeHeight(500.f);
+	}
 	ImGui::End();
 }
 

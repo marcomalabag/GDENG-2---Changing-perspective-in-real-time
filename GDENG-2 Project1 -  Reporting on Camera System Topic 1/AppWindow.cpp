@@ -60,12 +60,16 @@ void AppWindow::initializeEngine()
 	Viewport::initialize();
 
 	SceneCameraHandler::getInstance()->addCameraPerspectiveListener(this->perspectiveChanger);
+	
 
 	m_swap_chain = graphEngine->createSwapChain();
 
 	RECT rc = this->getClientWindowRect();
 	int width = rc.right - rc.left;
 	int height = rc.bottom - rc.top;
+
+	this->perspectiveChanger->CallUpdatePerspective(PerspectiveListener::ViewMode::PERSPECTIVE,
+		width, height, 0.1f, 1000.0f);
 
 	m_swap_chain->init(this->m_hwnd, width, height);
 
