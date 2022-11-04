@@ -16,6 +16,11 @@ public:
 
 private:
 	PerspectiveChanger* changerPerspective;
+	float* height;
+	float* width;
+	float* m_near;
+	float* m_far;
+
 
 };
 
