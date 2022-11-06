@@ -150,7 +150,7 @@
     <ClInclude Include="Cube.h" />
     <ClInclude Include="Cylinder.h" />
     <ClInclude Include="EngineTime.h" />
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\IndexBuffer.h" />
+    <ClInclude Include="IndexBuffer.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\InputListener.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\InputSystem.h" />
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.h" />
@@ -199,7 +199,7 @@
     <ClCompile Include="Cube.cpp" />
     <ClCompile Include="Cylinder.cpp" />
     <ClCompile Include="EngineTime.cpp" />
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\IndexBuffer.cpp" />
+    <ClCompile Include="IndexBuffer.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\InputSystem.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.cpp" />
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Matrix4x4.cpp" />

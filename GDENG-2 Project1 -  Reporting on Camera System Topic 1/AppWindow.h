@@ -14,6 +14,8 @@
 #include "Viewport.h"
 #include "UIManager.h"
 #include "Cube.h"
+#include "Sphere.h"
+#include "Cylinder.h"
 #include "EngineTime.h"
 #include "InputListener.h"
 #include "InputSystem.h"
@@ -73,6 +75,8 @@ private:
 	std::vector <class Triangle*> triangle;
 	std::vector<class Rectangle*> rectangle;
 	std::vector <Cube*> Cubes;
+	Sphere* sphere;
+	Cylinder* cylinder;
 
 	Vector3D positions[3];
 	Vector3D TrianglePositions[3];

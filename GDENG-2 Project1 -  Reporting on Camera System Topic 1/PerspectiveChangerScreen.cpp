@@ -14,7 +14,7 @@ PerspectiveChangerScreen::PerspectiveChangerScreen(PerspectiveChanger* changer):
 
 void PerspectiveChangerScreen::drawUI()
 {
-	//float height[3] = { changerPerspective->getHeight(), changerPerspective->getHeight(), changerPerspective->getHeight() };
+	
 	ImGui::Begin("Perspective Changer Window");
 	ImGui::SetWindowPos(ImVec2(UIManager::WINDOW_WIDTH - 575, 25));
 	ImGui::SetWindowSize(ImVec2(250, UIManager::WINDOW_HEIGHT));

@@ -122,6 +122,9 @@ void AppWindow::initializeEngine()
 
 	}
 
+	this->sphere = new Sphere("Sphere",  shader_byte_code, size_shader);
+	this->sphere->setPosition(0.0f, 0.0f, 3.0f);
+
 	graphEngine->releaseCompiledShader();
 
 
@@ -166,7 +169,7 @@ void AppWindow::onUpdate()
 		//Cubes[i]->update(ticks);
 		Cubes.at(i)->draw(rc.right - rc.left, rc.bottom - rc.top, this->vertexshader, this->pixelshader);
 	}
-
+	this->sphere->draw(rc.right - rc.left, rc.bottom - rc.top, this->vertexshader, this->pixelshader);
 	
 	UIManager::getInstance()->drawAllUI();
 	

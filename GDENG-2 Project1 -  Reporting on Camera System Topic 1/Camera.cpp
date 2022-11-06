@@ -296,9 +296,9 @@ void Camera::onRightMouseUp(const Point& mousePosition)
 void Camera::updatePerspective(ViewMode mode, float width, float height, float m_near, float m_far)
 {
 	this->currentmode = mode;
-	std::cout << "mode";
+	
 	this->perspectiveMatrix.setPerspectiveFovLH(width / height, width / height, m_near, m_far);
-	this->orthographicMatrix.setOrthoLH(width, height, m_near, m_far);
+	this->orthographicMatrix.setOrthoLH(width / 300.0f, height / 300.0f, m_near, m_far);
 }
 
 

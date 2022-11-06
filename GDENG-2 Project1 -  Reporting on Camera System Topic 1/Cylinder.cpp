@@ -163,7 +163,7 @@ void Cylinder::draw(int width, int height, VertexShader* vertexshader, PixelShad
 	*/
 	float aspectRatio = (float)width / (float)height;
 
-	cc.projection.setPerspectiveFovLH(aspectRatio, aspectRatio, 0.1f, 1000.0f);
+	cc.projection = SceneCameraHandler::getInstance()->getSceneCameraPerspectiveMatrix();
 
 	this->constantbuffer->update(GraphicsEngine::getInstance()->getImmediateDeviceContext(), &cc);
 

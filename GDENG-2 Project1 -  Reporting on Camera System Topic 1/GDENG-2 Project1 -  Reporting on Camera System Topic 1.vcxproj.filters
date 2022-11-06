@@ -258,7 +258,7 @@
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\InputSystem.cpp">
       <Filter>GameEngine\Input System</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\IndexBuffer.cpp">
+    <ClCompile Include="IndexBuffer.cpp">
       <Filter>GameEngine\GraphicsEngine\IndexBuffer</Filter>
     </ClCompile>
     <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Point.cpp">
@@ -398,7 +398,7 @@
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\InputListener.h">
       <Filter>GameEngine\Input System\Input Listener</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\IndexBuffer.h">
+    <ClInclude Include="IndexBuffer.h">
       <Filter>GameEngine\GraphicsEngine\IndexBuffer</Filter>
     </ClInclude>
     <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Point.h">
