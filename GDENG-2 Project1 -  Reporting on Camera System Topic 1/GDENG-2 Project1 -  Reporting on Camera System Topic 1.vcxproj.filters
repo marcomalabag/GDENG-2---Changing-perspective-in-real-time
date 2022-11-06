@@ -246,28 +246,28 @@
     <ClCompile Include="Sphere.cpp">
       <Filter>Primitives\3D\Sphere</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Matrix4x4.cpp">
+    <ClCompile Include="Matrix4x4.cpp">
       <Filter>GameEngine\Math\Matrix4x4</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Vector3D.cpp">
+    <ClCompile Include="Vector3D.cpp">
       <Filter>GameEngine\Math\Vector3D</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Vector4D.cpp">
+    <ClCompile Include="Vector4D.cpp">
       <Filter>GameEngine\Math\Vector4D</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\InputSystem.cpp">
+    <ClCompile Include="InputSystem.cpp">
       <Filter>GameEngine\Input System</Filter>
     </ClCompile>
     <ClCompile Include="IndexBuffer.cpp">
       <Filter>GameEngine\GraphicsEngine\IndexBuffer</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Point.cpp">
+    <ClCompile Include="Point.cpp">
       <Filter>GameEngine\Math\Point</Filter>
     </ClCompile>
     <ClCompile Include="EngineTime.cpp">
       <Filter>EngineTime</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.cpp">
+    <ClCompile Include="Math.cpp">
       <Filter>GameEngine\Math</Filter>
     </ClCompile>
     <ClCompile Include="SceneCameraHandler.cpp">
@@ -383,31 +383,31 @@
     <ClInclude Include="Sphere.h">
       <Filter>Primitives\3D\Sphere</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Matrix4x4.h">
+    <ClInclude Include="Matrix4x4.h">
       <Filter>GameEngine\Math\Matrix4x4</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Vector3D.h">
+    <ClInclude Include="Vector3D.h">
       <Filter>GameEngine\Math\Vector3D</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Vector4D.h">
+    <ClInclude Include="Vector4D.h">
       <Filter>GameEngine\Math\Vector4D</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\InputSystem.h">
+    <ClInclude Include="InputSystem.h">
       <Filter>GameEngine\Input System</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\InputListener.h">
+    <ClInclude Include="InputListener.h">
       <Filter>GameEngine\Input System\Input Listener</Filter>
     </ClInclude>
     <ClInclude Include="IndexBuffer.h">
       <Filter>GameEngine\GraphicsEngine\IndexBuffer</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Point.h">
+    <ClInclude Include="Point.h">
       <Filter>GameEngine\Math\Point</Filter>
     </ClInclude>
     <ClInclude Include="EngineTime.h">
       <Filter>EngineTime</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GDENG-2 Project1\GDENG-2 Project1 - Rendering System\Math.h">
+    <ClInclude Include="Math.h">
       <Filter>GameEngine\Math</Filter>
     </ClInclude>
     <ClInclude Include="PerspectiveListener.h">
