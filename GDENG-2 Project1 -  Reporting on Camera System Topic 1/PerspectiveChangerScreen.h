@@ -20,7 +20,5 @@ private:
 	float* width;
 	float* m_near;
 	float* m_far;
-
-
 };
 

@@ -67,7 +67,7 @@ void UIManager::drawAllUI()
 		
 	}
 
-	ImGui::ShowDemoWindow();
+	//ImGui::ShowDemoWindow();
 
 	ImGui::Render();
 	ImGui_ImplDX11_RenderDrawData(ImGui::GetDrawData());

@@ -14,10 +14,12 @@ PerspectiveChangerScreen::PerspectiveChangerScreen(PerspectiveChanger* changer):
 
 void PerspectiveChangerScreen::drawUI()
 {
-	
-	ImGui::Begin("Perspective Changer Window");
-	ImGui::SetWindowPos(ImVec2(UIManager::WINDOW_WIDTH - 575, 25));
-	ImGui::SetWindowSize(ImVec2(250, UIManager::WINDOW_HEIGHT));
+	static const char* views[] = { "Perspective", "Orthographic"};
+	static int currView = 0;
+
+	ImGui::Begin("View Changer Window");
+	//ImGui::SetWindowPos(ImVec2(UIManager::WINDOW_WIDTH - 575, 25));
+	//ImGui::SetWindowSize(ImVec2(275, 225));
 
 	/*
 	ImGui::Text("Mode %s", changerPerspective->getMode().c_str());
@@ -26,12 +28,80 @@ void PerspectiveChangerScreen::drawUI()
 	ImGui::Text("Near %f", changerPerspective->getNear());
 	ImGui::Text("Far %f", changerPerspective->getFar());
 	*/
-	if(ImGui::InputFloat("Height", this->height))
+
+	ImGui::Combo("View Mode", &currView, views, IM_ARRAYSIZE(views));
+	if (currView == 0)
+	{
+		changerPerspective->changeMode(PerspectiveListener::ViewMode::PERSPECTIVE);
+	}
+	if (currView == 1)
+	{
+		changerPerspective->changeMode(PerspectiveListener::ViewMode::ORTHOGRAPHIC);
+	}
+	ImGui::Text("Width");
+	ImGui::PushButtonRepeat(true);
+	if (ImGui::Button("-"))
+	{
+		changerPerspective->changeWidth((* this->width)--);
+	}
+	ImGui::SameLine();
+	if (ImGui::InputFloat("", this->width))
+	{
+		changerPerspective->changeWidth(*this->width);
+	}
+	ImGui::SameLine();
+	if (ImGui::Button("+"))
+	{
+		changerPerspective->changeWidth((*this->width)++);
+	}
+	ImGui::Text("Height");
+	if (ImGui::Button("-"))
+	{
+		changerPerspective->changeHeight((*this->height)--);
+	}
+	ImGui::SameLine();
+	if(ImGui::InputFloat("", this->height))
 	{
 		
 		changerPerspective->changeHeight(*this->height); 
 	}
-	
+	ImGui::SameLine();
+	if (ImGui::Button("+"))
+	{
+		changerPerspective->changeHeight((*this->height)++);
+	}
+	ImGui::Text("Near");
+	if (ImGui::Button("-"))
+	{
+		changerPerspective->changeNear((*this->m_near)--);
+	}
+	ImGui::SameLine();
+	if (ImGui::InputFloat("", this->m_near))
+	{
+		changerPerspective->changeNear(*this->m_near);
+	}
+	ImGui::SameLine();
+	if (ImGui::Button("+"))
+	{
+		changerPerspective->changeNear((*this->m_near)++);
+	}
+	ImGui::Text("Far");
+	if (ImGui::Button("+"))
+	{
+		changerPerspective->changeFar((*this->m_far)--);
+	}
+	ImGui::SameLine();
+	if (ImGui::InputFloat("", this->m_far))
+	{
+
+		changerPerspective->changeFar(*this->m_far);
+	}
+	ImGui::SameLine();
+	if (ImGui::Button("+"))
+	{
+		changerPerspective->changeFar((*this->m_far)++);
+	}
+	ImGui::PopButtonRepeat();
 	ImGui::End();
 }
 
