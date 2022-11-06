@@ -11,7 +11,7 @@ class VertexBuffer;
 class ConstantBuffer;
 class VertexShader;
 class PixelShader;
-
+class IndexBuffer;
 class DeviceContext
 {
 public:

@@ -258,9 +258,6 @@
     <ClCompile Include="InputSystem.cpp">
       <Filter>GameEngine\Input System</Filter>
     </ClCompile>
-    <ClCompile Include="IndexBuffer.cpp">
-      <Filter>GameEngine\GraphicsEngine\IndexBuffer</Filter>
-    </ClCompile>
     <ClCompile Include="Point.cpp">
       <Filter>GameEngine\Math\Point</Filter>
     </ClCompile>
@@ -278,6 +275,9 @@
     </ClCompile>
     <ClCompile Include="PerspectiveChangerScreen.cpp">
       <Filter>UI\PerspectiveChangerScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>GameEngine\GraphicsEngine\IndexBuffer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -398,9 +398,6 @@
     <ClInclude Include="InputListener.h">
       <Filter>GameEngine\Input System\Input Listener</Filter>
     </ClInclude>
-    <ClInclude Include="IndexBuffer.h">
-      <Filter>GameEngine\GraphicsEngine\IndexBuffer</Filter>
-    </ClInclude>
     <ClInclude Include="Point.h">
       <Filter>GameEngine\Math\Point</Filter>
     </ClInclude>
@@ -421,6 +418,9 @@
     </ClInclude>
     <ClInclude Include="PerspectiveChangerScreen.h">
       <Filter>UI\PerspectiveChangerScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>GameEngine\GraphicsEngine\IndexBuffer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
